@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+li.nav-item1 a {
+    font-family: 'Noto Sans', sans-serif !important;
+    color: rgb(253, 253, 253) !important;
+    background-color: rgb(144, 144, 251);
+
+}
+.image{
+    background-image: url("IMAGES/laptop.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+    height: 700px;
+    /* z-index: -1; */
+}
+.text{  
+float: left;
+padding-left: 50px;
+padding-top: 100px;
+color:aliceblue;
+
+}
+.text2{
+    background-color: rgb(235, 233, 233);
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.collection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 233, 233);
+    width: 100%;
+    
+}
+.card{
+    margin: 25px 50px 75px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 25px;
+    width: 30%;
+}
+.card:hover{
+    box-shadow: 0 30px 30px -20px rgba(50, 50, 50, 0.3);
+    transition: 0.8s;
+}
+h3{
+    line-height:40px;
+    height: 100px;
+}

@@ -1,0 +1,105 @@
+*{
+	font-family: consolas;
+}
+body {
+	background: url(IMAGES/teamchat.jpg);
+	background-color: #ffffff;
+	font-family: Consolas;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 10px;
+    padding-top: 10px;
+	
+}
+
+.login-container {
+
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #042253;
+    margin: 78px auto;
+    padding: 38px;
+	width: 300px;
+	background-color: #def1ff;
+	text-decoration: #042253;
+    
+}
+
+h1 {
+	color: #003170;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 34px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form label {
+	/* display: block; */
+	margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"], #email, #dob {
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+	/* display: block; */
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+    -webkit-transition: all 0.30s ease-in-out;
+	outline: none;
+	border: 1px solid #DDDDDD;
+}
+
+#submmit {
+	background-color: #022138;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+}
+#Token{
+    background-color: #022138;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+}
+#Token:hover{
+    background-color: rgb(9, 119, 152);
+	box-shadow: 0 0 5px rgb(9, 119, 152); 
+	transition: 0.5s;
+}
+
+
+
+input[type=text]:focus, form input[type="password"]:focus, #email:focus, #dob:focus {
+    box-shadow: 0 0 5px rgb(9, 119, 152);
+    border: 1px solid rgb(9, 119, 152);
+  }
+
+  #submmit:hover{
+	background-color: rgb(9, 119, 152);
+	box-shadow: 0 0 5px rgb(9, 119, 152);
+	transition: 0.5s;
+  }
+  p{
+	font-size: 20px;
+    color:rgb(6, 57, 134);
+    justify-content:center;
+    align-items: center;
+    margin-left: 75px;
+  }
